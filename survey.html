@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100&display=swap" rel="stylesheet">
+    <title>Social Media Survey</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="sr-background">
+        <div class="formdesign">
+            <header id="title"><h1>Social Media Survey</h1>
+            <p id="description" style="font-weight: bold;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ipsam consequatur, officiis impedit maiores soluta quo corporis voluptate quasi harum illum cum labore ullam eum debitis consectetur deserunt id nobis? Libero aspernatur repudiandae ipsa exercitationem autem? Voluptatum rerum omnis animi placeat soluta exercitationem minima quos? Deleniti quasi omnis asperiores possimus.</p>
+            </header><br><br>
+        <div>
+            <form action="/register.php" method="post">
+            <div class="personal-info" style="width:50%;margin-left: 100px;">
+                <label for="fname" style="font-weight: bolder;">First Name: </label>
+                <input type="text" id="fname" placeholder="Enter your name" required><br><br>
+                <label for="lname" style="font-weight: bolder;">Last Name: </label>
+                <input type="text" id="lname" placeholder="Enter your surname" required><br><br>
+                <label for="email" style="font-weight: bolder;">E-Mail: </label>
+                <input type="text" id="email" placeholder="Enter your e-mail" required><br><br></div>
+        <div style="width: 100%; font-weight: bold;text-align: center;">
+        <h3 id="sm" style="font-size:36px;">Questions - Social Media</h3>
+        <p id="q1">1. Which Social Media platform is your favourite?</p>
+            <input type="radio" id="fb" name="favorite-sm" required>
+            <label for="fb" class="questions">Facebook</label>
+            <input type="radio" id="ins" name="favorite-sm" required>
+            <label for="ins" class="questions">Instagram</label>
+            <input type="radio" id="tw" name="favorite-sm" required>
+            <label for="tw" class="questions">Twitter</label>
+            <input type="radio" id="tk" name="favorite-sm" required>
+            <label for="tk" class="questions">TikTok</label>
+            <input type="radio" id="non" name="favorite-sm" required>
+            <label for="non" class="questions">I hate them equally</label>
+        <br><br><br>
+
+        <p class="answers">2. Which social media platform do you think is the most useful for people?</p>
+            <input type="radio" id="fb2" name="useful-sm" required>
+            <label for="fb2" class="questions">Facebook</label>
+            <input type="radio" id="ins2" name="useful-sm" required>
+            <label for="ins2" class="questions">Instagram</label>
+            <input type="radio" id="tw2" name="useful-sm" required>
+            <label for="tw2" class="questions">Twitter</label>
+            <input type="radio" id="tk2"  name="useful-sm" required>
+            <label for="tk2" class="questions">TikTok</label>
+            <input type="radio" id="neither" name="useful-sm" required>
+            <label for="neither" class="questions">None of them</label>
+        <br><br><br>
+
+        <p class="answers">3. ....... is my least favorite social media platform.</p>
+            <input type="radio" id="fb3" name="least-sm" required>
+            <label for="fb3" class="questions">Facebook</label>
+            <input type="radio" id="ins3" name="least-sm" required>
+            <label for="ins3" class="questions">Instagram</label>
+            <input type="radio" id="tw3" name="least-sm" required>
+            <label for="tw3" class="questions">Twitter</label>
+            <input type="radio" id="tk3" name="least-sm" required>
+            <label for="tk3" class="questions">TikTok</label>
+            <input type="radio" id="allofthem" name="least-sm" required>
+            <label for="allofthem" class="questions">I love them equally </label>
+            <br><br><br>
+
+        <p class="answers">4. Children shouldn't be allowed to use .......</p>
+            <input type="radio" id="fb4" name="chl-sm" required>
+            <label for="fb4" class="questions">Facebook</label>
+            <input type="radio" id="ins4" name="chl-sm" required>
+            <label for="ins4" class="questions">Instagram</label>
+            <input type="radio" id="tw4" name="chl-sm" required>
+            <label for="tw4" class="questions">Twitter</label>
+            <input type="radio" id="tk4" name="chl-sm" required>
+            <label for="tk4" class="questions">TikTok</label>
+            <input type="radio" id="noneofthem" name="chl-sm" required>
+            <label for="noneofthem" class="questions">Any of them</label>
+            <br><br>
+            <input type="submit" value="Submit" required>
+            <input type="reset" value="Reset">
+            </div>
+        </form></div>
+</body>
+</html>
