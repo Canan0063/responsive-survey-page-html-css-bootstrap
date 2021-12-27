@@ -17,11 +17,11 @@
             <form action="/register.php" method="post">
             <div class="personal-info" style="width:50%;margin-left: 100px;">
                 <label for="fname" style="font-weight: bolder;">First Name: </label>
-                <input type="text" id="fname" placeholder="Enter your name" required><br><br>
+                <input type="text" id="fname" placeholder="Enter your name" required style="font-weight: bold;"><br><br>
                 <label for="lname" style="font-weight: bolder;">Last Name: </label>
-                <input type="text" id="lname" placeholder="Enter your surname" required><br><br>
+                <input type="text" id="lname" placeholder="Enter your surname" style="font-weight: bold;"required><br><br>
                 <label for="email" style="font-weight: bolder;">E-Mail: </label>
-                <input type="text" id="email" placeholder="Enter your e-mail" required><br><br></div>
+                <input type="email" id="email" placeholder="Enter your e-mail" style="font-weight: bold;" required><br><br></div>
         <div style="width: 100%; font-weight: bold;text-align: center;">
         <h3 id="sm" style="font-size:36px;">Questions - Social Media</h3>
         <p id="q1">1. Which Social Media platform is your favourite?</p>
@@ -75,8 +75,8 @@
             <input type="radio" id="noneofthem" name="chl-sm" required>
             <label for="noneofthem" class="questions">Any of them</label>
             <br><br>
-            <input type="submit" value="Submit" required>
-            <input type="reset" value="Reset">
+            <button class="button1">Submit</button>
+            <button class="button2">Reset</button>
             </div>
         </form></div>
 </body>
