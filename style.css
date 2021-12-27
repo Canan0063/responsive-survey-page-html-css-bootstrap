@@ -1,66 +1,131 @@
 * {
-  font-family: "M Plus 1p";
-}
+    font-family: "M Plus 1p";
+  }
+  
+  .formdesign {
+    background-color: rgb(245, 245, 245, 0.8);
+    margin: 0 auto;
+    width: 50%;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    overflow: auto;
+    align-self: center;
+  }
+  .sr-background::before {
+    content: "";
+    margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background: -webkit-linear-gradient(
+        200deg,
+        rgba(87, 72, 110, 0.7),
+        rgba(158, 36, 36, 0.8)
+      ),
+      url(../dosya/social_media.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+  }
+  
+  #title {
+    text-align: center;
+    font-size: 24px;
+  }
+  #description {
+    margin-top: -2%;
+    font-size: 16px;
+  }
+  
+  div.personal-info {
+    text-align: center;
+  }
+  
+  input#fname {
+    float: right;
+  }
+  
+  input#lname {
+    float: right;
+  }
+  
+  input#email {
+    float: right;
+  }
+  
+  select#gender {
+    float: right;
+  }
+  
+  div.demogs {
+    text-align: center;
+  }
 
-.formdesign {
-  background-color: rgb(245, 245, 245, 0.8);
-  margin: 0 auto;
-  width: 50%;
-  padding: 1em;
-  border: 1px solid #ccc;
-  border-radius: 1em;
-  overflow: auto;
-  align-self: center;
-}
-.sr-background::before {
-  content: "";
-  margin: 0;
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  z-index: -1;
-  background: -webkit-linear-gradient(
-      200deg,
-      rgba(87, 72, 110, 0.7),
-      rgba(158, 36, 36, 0.8)
-    ),
-    url(../dosya/social_media.jpg);
-  background-size: cover;
-  background-repeat: repeat;
-  background-position: center;
-}
+  .button1 {
+    background-color: rgb(35, 161, 35); 
+    border: none;
+    border-radius: 20%;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 4px;
+    cursor: pointer;
+  }
 
-#title {
-  text-align: center;
-  font-size: 24px;
-}
-#description {
-  margin-top: -2%;
-  font-size: 16px;
-}
+  .button1:hover {
+    background-color: rgb(13, 159, 204); /* Green */
+    border: none;
+    border-radius: 20%;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 4px;
+    cursor: pointer;
+  }
 
-div.personal-info {
-  text-align: center;
-}
 
-input#fname {
-  float: right;
-}
+  .button2 {
+    background-color: tomato;
+    border: none;
+    border-radius: 20%;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 4px;
+    cursor: pointer;
+  }
 
-input#lname {
-  float: right;
-}
-
-input#email {
-  float: right;
-}
-
-select#gender {
-  float: right;
-}
-
-div.demogs {
-  text-align: center;
-}
+  .button2:hover {
+    background-color: rgb(13, 159, 204); /* Green */
+    border: none;
+    border-radius: 20%;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 4px;
+    cursor: pointer;
+  }
