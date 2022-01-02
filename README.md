@@ -1,1 +1,1 @@
-This sample survey page is designed in HTML by using Bootstrap framework. 
+This responsive survey page is designed in HTML by using Bootstrap framework. 
