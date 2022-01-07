@@ -1,3 +1,1 @@
-This responsive survey page is designed in HTML by using Bootstrap framework. 
-
-
+An online shopping survey page is designed in HTML with Bootstrap framework.
