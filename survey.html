@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-<title>Social Media Survey</title>
+<title>Online Shopping Survey</title>
 <script src="https://kit.fontawesome.com/8beace882b.js" crossorigin="anonymous"></script>
 <style>
 li{
@@ -17,7 +17,7 @@ list-style-type: none;
 <form class="mx-auto mt-3">
     <div class="container description-survey">
         <div class="jumbotron mx-auto">
-            <h1 class="display-4 text-uppercase">Social Media Survey</h1>
+            <h1 class="display-4 text-uppercase">Online Shopping Survey</h1>
             <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore est illo beatae hic provident perspiciatis laboriosam animi soluta, quia incidunt nemo
             <hr >
             </p>
@@ -94,115 +94,20 @@ list-style-type: none;
                             <label for="customRange3" class="form-label float-right">Very Likely</label>
                             <input type="range" class="form-control-range" min="0" max="6" step="1" id="customRange3"> 
                         </div>
-
-
-    
+                        <p class="mt-4"><strong>What could we improve?</strong></p>
+                        <div class="form-outline mb-2">
+                            <textarea class="form-control" id="textarea4" rows="4" placeholder="Help us improve our products & services with your feedback"></textarea>
+                            <label class="form-label" for="textarea4"></label>
+                        </div>
+                </div>
+                    <button type="button" class="btn btn-primary btn-lg btn-block mb-3">Submit
+                    </button>
+            </div>
+        </div>
+    </div>
 </form>
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
 </body>
 </html>
-
-<!--
-<div class="personal-info">
-        <div class="container">
-            <div class="row form-group">
-                <div class="col-25">
-                <label for="name">Full Name</label></div>
-                <div class="col-75">
-                <input type="text" id="name" placeholder="Enter your full name" class="form-control" required></div>
-            </div>
-            <div class="row form-group">
-                <div class="col-25">
-                <label for="email">E-mail</label></div>
-                <div class="col-75">
-                <input type="email" id="email" placeholder="Enter your e-mail" class="form-control" required></div>
-            </div>
-            <div class="row form-group">
-                <div class="col-25">
-                <label for="email">Age</label></div>
-                <div class="col-75">
-                <select name="age" id="age" required>
-                    <option value="none" disabled selected value>Select your age</option>
-                    <option value="017">0-17</option>
-                    <option value="1824">18-24</option>
-                    <option value="2534">25-34</option>
-                </select>
-                </div>
-            </div>
-        </div>
-    </div>
-    <hr>
-    <div class="questionnaire">
-        <div class="container">
-            <div class="row1 form-group">
-                <p>1. Which Social Media platform is your favourite?</p>
-            </div>
-            <div class="answer1 form-group">
-                <input type="radio" id="fb" name="favorite-sm" required>
-                <label for="fb" class="questions px-2">Facebook</label>
-                <input type="radio" id="ins" name="favorite-sm" required>
-                <label for="ins" class="questions px-2">Instagram</label>
-                <input type="radio" id="tw" name="favorite-sm" required>
-                <label for="tw" class="questions px-2">Twitter</label>
-                <input type="radio" id="tk" name="favorite-sm" required>
-                <label for="tk" class="questions px-2">TikTok</label>
-                <input type="radio" id="non" name="favorite-sm" required>
-                <label for="non" class="questions px-2">I hate them equally</label>
-            </div>
-            <div class="row1 form-group">
-                <p>2. Which social media platform do you think is the most useful for people?</p>
-            </div>
-            <div class="answer1 form-group">
-                <input type="radio" id="fb2" name="useful-sm" required>
-                <label for="fb2" class="questions  px-2">Facebook</label>
-                <input type="radio" id="ins2" name="useful-sm" required>
-                <label for="ins2" class="questions  px-2">Instagram</label>
-                <input type="radio" id="tw2" name="useful-sm" required>
-                <label for="tw2" class="questions  px-2">Twitter</label>
-                <input type="radio" id="tk2"  name="useful-sm" required>
-                <label for="tk2" class="questions px-2">TikTok</label>
-                <input type="radio" id="neither" name="useful-sm" required>
-                <label for="neither" class="questions px-2">None of them</label>
-            </div>
-            <div class="row1 form-group">
-                <p>3. ................... is my least favorite social media platform.</p>
-            </div>
-            <div class="answer1 form-group">
-                <input type="radio" id="fb3" name="least-sm" required>
-                <label for="fb3" class="questions px-2">Facebook</label>
-                <input type="radio" id="ins3" name="least-sm" required>
-                <label for="ins3" class="questions px-2">Instagram</label>
-                <input type="radio" id="tw3" name="least-sm" required>
-                <label for="tw3" class="questions px-2">Twitter</label>
-                <input type="radio" id="tk3" name="least-sm" required>
-                <label for="tk3" class="questions px-2">TikTok</label>
-                <input type="radio" id="allofthem" name="least-sm" required>
-                <label for="allofthem" class="questions px-2">I love them equally </label>
-            </div>
-            <div class="row1 form-group">
-                <p>4. Children shouldn't be allowed to use ...................
-                </p>
-            </div>
-            <div class="answer1 form-group">
-                <input type="radio" id="fb4" name="chl-sm" required>
-                <label for="fb4" class="questions px-2">Facebook</label>
-                <input type="radio" id="ins4" name="chl-sm" required>
-                <label for="ins4" class="questions px-2">Instagram</label>
-                <input type="radio" id="tw4" name="chl-sm" required>
-                <label for="tw4" class="questions px-2">Twitter</label>
-                <input type="radio" id="tk4" name="chl-sm" required>
-                <label for="tk4" class="questions px-2">TikTok</label>
-                <input type="radio" id="noneofthem" name="chl-sm" required>
-                <label for="noneofthem" class="questions px-2">Any of them</label>
-            </div>
-        </div>
-    </div>
-    <div class="buttons">
-        <div class="container d-flex">
-            <button type="submit" class="btn btn-primary">Submit</button>
-            <button type="reset" class="btn btn-danger ml-4">Reset</button>
-        </div>
-    </div>
-    <hr>
